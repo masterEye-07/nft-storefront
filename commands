@@ -1,0 +1,3 @@
+# Commands to run -
+
+flow accounts update-contract NFTStorefront ./contracts/NFTStorefront.cdc --signer nft-storefront-mainnet --network mainnet

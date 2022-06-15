@@ -1,0 +1,21 @@
+{
+    "accounts": {
+      "nft-storefront-mainnet": {
+        "address": "0x4eb8a10cb9f87357",
+        "key": "${NFT_STOREFRONT_MAINNET_PRIVATE_KEY}"
+      }
+    },
+    "contracts": {
+        "NFTStorefront": "./contracts/NFTStorefront.cdc"
+    },
+    "networks": {
+        "mainnet": "access.mainnet.nodes.onflow.org:9000"
+    },
+    "deployments": {
+      "mainnet": {
+        "nft-storefront-mainnet": [
+          "NFTStorefront"
+        ]
+      }
+    }
+  }
